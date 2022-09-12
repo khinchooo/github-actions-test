@@ -20,7 +20,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
+<<<<<<< HEAD
           python-version: 3.10
+=======
+          python-version: '3.10'
+>>>>>>> 636007d8bd53996121affa12ab107f8795ae9724
       - name: Install dependency
         run: pip install pytest
       - name: Test with pytest
